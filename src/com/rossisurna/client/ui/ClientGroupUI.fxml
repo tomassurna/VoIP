@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="400.0" prefWidth="620.0"
+            style="-fx-background-color: #38383a;"
+            stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/8.0.172-ea">
+    <children>
+        <AnchorPane fx:id="groupDetailsAnchorPane" minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="234.0"
+                    style="-fx-background-color: #989ba0;">
+            <children>
+                <Label fx:id="groupNameLabel" layoutX="7.0" layoutY="7.0" prefHeight="27.0" prefWidth="164.0"
+                       text="*Group Name*" textAlignment="CENTER">
+                    <font>
+                        <Font name="Segoe UI" size="18.0"/>
+                    </font>
+                </Label>
+                <Label fx:id="clientLabel" layoutX="26.0" layoutY="47.0" prefHeight="16.0" prefWidth="123.0"
+                       text="Client 1">
+                    <font>
+                        <Font name="Segoe UI" size="14.0"/>
+                    </font>
+                </Label>
+                <Line endX="530.0" layoutX="90.0" layoutY="43.0" startX="-100.0" stroke="#38383a"/>
+                <TextField fx:id="pushToTalkHotKeyTextField" layoutX="57.0" layoutY="347.0" prefHeight="25.0"
+                           prefWidth="23.0" style="-fx-background-color: #38383a; -fx-text-fill: #fff;">
+                    <font>
+                        <Font name="Segoe UI" size="12.0"/>
+                    </font>
+                </TextField>
+                <Label layoutX="7.0" layoutY="352.0" text="Hot Key:">
+                    <font>
+                        <Font name="Segoe UI" size="12.0"/>
+                    </font>
+                </Label>
+                <Button fx:id="quitButton" layoutX="90.0" layoutY="370.0" mnemonicParsing="false" prefHeight="23.0"
+                        prefWidth="81.0" style="-fx-text-fill: #ffffff; -fx-background-color: #38383a;" text="Quit">
+                    <font>
+                        <Font name="Segoe UI" size="12.0"/>
+                    </font>
+                </Button>
+                <Label layoutX="7.0" layoutY="377.0" text="URL:">
+                    <font>
+                        <Font name="Segoe UI" size="12.0"/>
+                    </font>
+                </Label>
+                <Label fx:id="groupUrlLabel" layoutX="36.0" layoutY="377.0" text="*url*">
+                    <font>
+                        <Font name="Segoe UI" size="12.0"/>
+                    </font>
+                </Label>
+                <Circle fx:id="clientCircle" fill="#38383a" layoutX="14.0" layoutY="56.0" radius="5.0"
+                        stroke="TRANSPARENT" strokeType="INSIDE"/>
+                <Line endX="530.0" layoutX="90.0" layoutY="325.0" startX="-100.0" stroke="#38383a"/>
+            </children>
+        </AnchorPane>
+        <AnchorPane layoutX="214.0" minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="410.0"
+                    style="-fx-background-color: #989ba0;">
+            <children>
+                <Button fx:id="chatButton" layoutX="351.0" layoutY="359.0" mnemonicParsing="false" prefHeight="25.0"
+                        prefWidth="48.0" style="-fx-background-color: #38383a; -fx-text-fill: #ffffff;" text="Send">
+                    <font>
+                        <Font name="Segoe UI" size="12.0"/>
+                    </font>
+                </Button>
+                <TextField fx:id="chatInput" layoutX="10.0" layoutY="359.0" prefHeight="25.0" prefWidth="333.0"
+                           promptText="Say something!" style="-fx-background-color: #38383a; -fx-text-fill: #fff;">
+                    <font>
+                        <Font name="Segoe UI" size="12.0"/>
+                    </font>
+                </TextField>
+                <TextArea fx:id="chatTextArea" editable="false" layoutX="10.0" layoutY="14.0" prefHeight="337.0"
+                          prefWidth="391.0" style="-fx-focus-color: transparent; -fx-background-color: #38383a;"
+                          text="Welcome to *Group Name*" wrapText="true">
+                    <font>
+                        <Font name="Segoe UI" size="12.0"/>
+                    </font>
+                </TextArea>
+            </children>
+        </AnchorPane>
+        <Line endX="400.0" layoutX="65.0" layoutY="150.0" rotate="90.0" startX="-100.0"/>
+    </children>
+</AnchorPane>
+

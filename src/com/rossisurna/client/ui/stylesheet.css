@@ -1,0 +1,41 @@
+/**
+* Network Programming Spring 2019 Final Project
+* <p>
+* Stylesheet for the group UI
+*
+* @author Stephen R
+* @author Tomas S
+* @version 1.0
+* @since April 4 2019
+*/
+.text-area {
+   text-area-background: #38383a;
+   -fx-text-fill: #fff;
+}
+
+.progress-bar > .track{
+    -fx-control-inner-background: #38383a;
+    -fx-text-box-border: #38383a;
+    -fx-focus-color: -fx-control-inner-background ;
+    -fx-faint-focus-color: -fx-control-inner-background ;
+}
+
+.slider{
+    -fx-control-inner-background: #38383a;
+    -fx-text-box-border: #38383a;
+    -fx-focus-color: transparent ;
+    -fx-faint-focus-color: transparent ;
+}
+.thumb{
+    -fx-control-inner-background: #38383a;
+    -fx-text-box-border: transparent;
+}
+
+.text-area .content {
+   -fx-background-color: text-area-background ;
+}
+.text-area {
+   -fx-focus-color: -fx-control-inner-background ;
+   -fx-faint-focus-color: -fx-control-inner-background ;
+}
+

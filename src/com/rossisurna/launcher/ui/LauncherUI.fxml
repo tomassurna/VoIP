@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:id="mainAPane" prefHeight="113.0" prefWidth="262.0"
+            style="-fx-background-color: #989ba0;" xmlns="http://javafx.com/javafx/8.0.172-ea">
+    <children>
+        <Label fx:id="leftLabel" layoutX="87.0" layoutY="8.0" text="Controls">
+            <font>
+                <Font name="Segoe UI" size="27.0"/>
+            </font>
+        </Label>
+        <Button fx:id="launchServerButton" layoutX="134.0" layoutY="53.0" mnemonicParsing="false" prefHeight="22.0"
+                prefWidth="117.0" style="-fx-background-color: #38383a;" text="Stop Server" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI" size="12.0"/>
+            </font>
+        </Button>
+        <Button fx:id="launchClientButton" layoutX="12.0" layoutY="53.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="117.0" style="-fx-background-color: #38383a;" text="Launch Client" textFill="WHITE">
+            <font>
+                <Font name="Segoe UI" size="12.0"/>
+            </font>
+        </Button>
+        <Label fx:id="leftLabel1" layoutX="14.0" layoutY="86.0" text="Thread Count:">
+            <font>
+                <Font name="Segoe UI" size="14.0"/>
+            </font>
+        </Label>
+        <Label fx:id="threadCountLabel" layoutX="100.0" layoutY="86.0">
+            <font>
+                <Font name="Segoe UI" size="14.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
