@@ -4,9 +4,7 @@ Authors:
 Stephen R
 Tomas S
 
-### Install & Run:
-
-### IntelliJ
+### Install & Run, IntelliJ:
 
 #### Step 1:
 Launch IntelliJ and create a new project from version control and git.
@@ -56,11 +54,11 @@ In the top right corner press "Add Configurations".
 #### Step 12:
 Press the + button and select Application. Then fill in the information below, for "Main-Class" enter:
 
-com.rossisurna.launcher.application.Main 
+ com.rossisurna.launcher.application.Main 
 
 then under the VM Options enter: 
 
---module-path "..\NP2019FinalProject\Internal_Libraries\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.fxml
+ --module-path "..\NP2019FinalProject\Internal_Libraries\javafx-sdk-11.0.2\lib" --add-modules=javafx.controls,javafx.fxml
 
 lastly, press "OK"
 
